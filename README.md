@@ -1,5 +1,11 @@
 # Sistema de Gestión de Motores
 
+## Integrantes del Proyecto
+
+- Alejandro Caro
+- Jairo Alberto Bentancur
+- Camilo Vélez Luna
+
 Este proyecto implementa un sistema CRUD (Create, Read, Update, Delete) para la gestión de motores, permitiendo manejar tanto motores de gasolina como motores eléctricos.
 
 ## Características
