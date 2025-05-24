@@ -34,4 +34,14 @@ public class motorDAO {
         }
     }
 
+    public void eliminarMotor(String numeroMotor) {
+        Optional<Motor> motor = buscarMotorPorNumero(numeroMotor);
+        if (motor.isPresent()) {
+            motores.remove(motor.get());
+            System.out.println("Motor " + numeroMotor + " eliminado.");
+        } else {
+            System.out.println("No se encontró un motor con el número " + numeroMotor);
+        }
+    }
+
 }
